@@ -21,7 +21,7 @@ export default function Page() {
         <form onSubmit={handleSubmit}>
           <input
             type="email"
-            placeholder="Please enter your email"
+            placeholder="Enter your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             style={{ padding: "8px", fontSize: "16px", width: "250px" }}
